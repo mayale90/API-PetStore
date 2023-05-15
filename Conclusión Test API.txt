@@ -1,0 +1,14 @@
+Conclusiones Test API
+
+Test realizado: API PetStore
+
+Para el desarrollo del test correspondiente a la API PetStore se plantearon los escenarios respectivos para verificar el correcto 
+funcionamiento para agregar, consultar y modificar una mascota a la tienda.
+
+Se decidió utilizar un archivo json, el cual contiene el body requerido en los distintos endpoints para la ejecución. De esta manera
+podemos reutilizar esta información en los escenarios que así lo requieren, manteniendo nuestro feature optimizado. 
+
+En cuanto al resultado de las pruebas realizadas a los endpoints se obtuvo una ejecución exitosa de los cuatro escenarios planteados, 
+siendo así una creación exitosa de mascota, realizando una búsqueda por Id de la mascota ingresada, actualizando posteriormente el nombre 
+y estatus de la mascota, para por último proceder a realizar una búsqueda por status sold y confirmando que nuestra mascota modificada 
+se encuentra en el .json que nos devuelve este endpoint. 
